@@ -1,37 +1,33 @@
-/* This is a CSS comment */
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+  <style>  
+    .about-me {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
 
-/* Styles for the body element */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
-}
+    h1 {
+      color: #333;
+    }
 
-/* Styles for headings */
-h1 {
-  color: #333;
-  font-size: 24px;
-}
-
-h2 {
-  color: #666;
-  font-size: 20px;
-}
-
-/* Styles for paragraphs */
-p {
-  color: #444;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-/* Styles for links */
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+    p {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="about-me">
+    <h1>About Me</h1>
+    <p>
+      Hello! My name is [Ayomide] and I'm a [Student]. 
+      I have a passion for [Football] and enjoy [{Playing video Game]. 
+      This is a brief introduction to who I am and what I'm all about.
+    </p>
+  </div>
+</body>
+</html>
