@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+  <style>  
+    .about-me {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: red;
+    }
+
+    p {
+      color: blue;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="about-me">
+    <h1>About Me</h1>
+    <p>
+      Hello! My name is [Ayomide] and I'm a [Student]. 
+      I have a passion for [Football] and enjoy [{Playing video Game]. 
+      This is a brief introduction to who I am and what I'm all about.
+    </p>
+  </div>
+</body>
+</html>
