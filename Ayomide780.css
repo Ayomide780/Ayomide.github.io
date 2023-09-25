@@ -1,0 +1,9 @@
+/* Set background color */
+body {
+  background-color: #3498db; /* Blue background color */
+}
+
+/* Change text color */
+.text-color {
+  color: #ffffff; /* White text color */
+}
