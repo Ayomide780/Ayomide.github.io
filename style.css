@@ -1,9 +1,37 @@
-/* Set background color */
+/* This is a CSS comment */
+
+/* Styles for the body element */
 body {
-  background-color: #3498db; /* Blue background color */
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
 
-/* Change text color */
-.text-color {
-  color: #ffffff; /* White text color */
+/* Styles for headings */
+h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+h2 {
+  color: #666;
+  font-size: 20px;
+}
+
+/* Styles for paragraphs */
+p {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Styles for links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
