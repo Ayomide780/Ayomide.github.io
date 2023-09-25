@@ -1,6 +1,23 @@
-main{
-background color: red;
-font-size: 16px; /* Font size */
-  line-height: 1.5; /* Line height for readability */
-  margin-bottom: 20px; /* Spacing between paragraphs */
+/* CSS for the About Me section */
+.about-me {
+  background-color: #3498db; /* Blue background color */
+  color: #ffffff; /* White text color */
+  font-family: "Bell MT", serif; /* Bell MT font style */
+  font-size: 24px; /* Adjust the font size as needed */
+  padding: 20px; /* Add padding to the section */
+  text-align: center; /* Center-align the text */
+  border-radius: 10px; /* Add rounded corners to the section */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Additional styles for your content within the About Me section */
+.about-me p {
+  margin: 0;
+  line-height: 1.5; /* Adjust the line height for readability */
+}
+
+/* Example of styling a heading within the About Me section */
+.about-me h1 {
+  font-size: 36px; /* Adjust the heading font size */
+  margin-bottom: 10px; /* Add spacing below the heading */
 }
