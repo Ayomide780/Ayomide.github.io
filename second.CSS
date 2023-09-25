@@ -10,11 +10,11 @@
     }
 
     h1 {
-      color: #333;
+      color: red;
     }
 
     p {
-      color: #666;
+      color: blue;
       font-size: 16px;
       line-height: 1.5;
     }
