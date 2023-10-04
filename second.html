@@ -1,64 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me</title>
   <style>
-    .about-me {
-      font-family: 'Comic Sans MS', cursive;
-      background-color: #ffcc00;
-      padding: 20px;
+    body {
+      background-color: #121212;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #ff3366;
       text-align: center;
-      border: 3px solid #ff3300;
-      border-radius: 10px;
-      box-shadow: 5px 5px 10px #888888;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
 
     h1 {
-      color: #ff3366;
       font-size: 36px;
-      text-shadow: 2px 2px 4px #000000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .about-me {
+      background-color: #333;
+      color: #fff;
+      padding: 30px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     }
 
     p {
-      color: #3333ff;
-      font-size: 20px;
-      line-height: 1.5;
+      font-size: 18px;
+      line-height: 1.6;
     }
 
     a {
       text-decoration: none;
-      color: #ff3300;
-      font-size: 18px;
-      border: 2px solid #ff3300;
-      padding: 5px 10px;
-      border-radius: 5px;
-      background-color: #ffffcc;
+      color: #ff3366;
+      font-weight: bold;
     }
 
     img {
-      width: 200px;
-      height: auto;
-      margin: 10px;
-      border: 3px solid #ff3366;
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin: 20px auto;
+      border: 5px solid #ff3366;
       border-radius: 10px;
-      box-shadow: 3px 3px 6px #888888;
     }
   </style>
 </head>
 <body>
-  <div class="back-to-main">
-    <a href="index.html">← Back to Main Page</a>
+  <div class="header">
+    <h1>About Me</h1>
   </div>
 
   <div class="about-me">
-    <h1>About Me</h1>
     <p>
       Hello! My name is <strong>[Ayomide]</strong> and I'm a <em>[Student]</em>. 
       I have a passion for <strong>[Football]</strong> and enjoy <em>[Playing video games]</em>. 
       This is a brief introduction to who I am and what I'm all about.
     </p>
-    <p>I am from <span style="color: #ff3300;">Nigeria</span></p>
+    <p>I am from <span style="color: #ff3366;">Nigeria</span></p>
   </div>
+
+  <div class="footer">
+    <a href="index.html">← Back to Main Page</a>
+  </div>
+
   <img src="https://th.bing.com/th/id/OIP.7s3WGxpeJiZbbSo7p7CKGAHaFU?w=256&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Football Image">
   <img src="https://th.bing.com/th/id/OIP.Rk4AAj1viTeOp699NHyOBgHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Video Game Image">
   <img src="https://th.bing.com/th/id/OIP.oqIZ3wnE7LZP8t6c_p_rRQHaFV?w=215&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Nigeria Flag Image">
