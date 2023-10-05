@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me</title>
   <style>
+    /* Global Styles */
     body {
       background-color: #121212;
       color: #fff;
@@ -13,6 +14,7 @@
       padding: 0;
     }
 
+    /* Header Styles */
     .header {
       background-color: #ff3366;
       text-align: center;
@@ -24,8 +26,10 @@
       font-size: 36px;
       text-transform: uppercase;
       letter-spacing: 2px;
+      margin: 0;
     }
 
+    /* Content Styles */
     .about-me {
       background-color: #333;
       color: #fff;
@@ -40,6 +44,7 @@
       line-height: 1.6;
     }
 
+    /* Link Styles */
     a {
       text-decoration: none;
       color: #ff3366;
@@ -51,17 +56,22 @@
       color: #ff6699;
     }
 
-    img {
+    /* Image Styles */
+    .image-container {
+      text-align: center;
+    }
+
+    .image {
       width: 100%;
       max-width: 400px;
-      display: block;
-      margin: 20px auto;
+      display: inline-block;
+      margin: 20px;
       border: 5px solid #ff3366;
       border-radius: 10px;
       transition: transform 0.3s ease;
     }
 
-    img:hover {
+    .image:hover {
       transform: scale(1.05);
     }
   </style>
@@ -84,8 +94,11 @@
     <a href="index.html">← Back to Main Page</a>
   </div>
 
-  <img src="https://th.bing.com/th/id/OIP.7s3WGxpeJiZbbSo7p7CKGAHaFU?w=256&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Football Image">
-  <img src="https://th.bing.com/th/id/OIP.Rk4AAj1viTeOp699NHyOBgHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Video Game Image">
-  <img src="https://th.bing.com/th/id/OIP.oqIZ3wnE7LZP8t6c_p_rRQHaFV?w=215&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Nigeria Flag Image">
+  <!-- Image Container -->
+  <div class="image-container">
+    <img class="image" src="https://th.bing.com/th/id/OIP.7s3WGxpeJiZbbSo7p7CKGAHaFU?w=256&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Football Image">
+    <img class="image" src="https://th.bing.com/th/id/OIP.Rk4AAj1viTeOp699NHyOBgHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Video Game Image">
+    <img class="image" src="https://th.bing.com/th/id/OIP.oqIZ3wnE7LZP8t6c_p_rRQHaFV?w=215&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Nigeria Flag Image">
+  </div>
 </body>
 </html>
