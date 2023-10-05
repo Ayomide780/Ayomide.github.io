@@ -59,6 +59,7 @@
     /* Image Styles */
     .image-container {
       text-align: center;
+      margin-top: 20px;
     }
 
     .image {
@@ -74,7 +75,7 @@
     .image:hover {
       transform: scale(1.05);
     }
-    
+
     /* Additional Styling */
     .section-title {
       font-size: 24px;
@@ -97,6 +98,33 @@
       bottom: 0;
       width: 100%;
     }
+
+    /* Stylish Background Section */
+    .background-section {
+      background-image: url('https://example.com/your-background-image.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 50px 0;
+      text-align: center;
+      color: #fff;
+    }
+
+    /* Social Media Icons */
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      font-size: 24px;
+      color: #ff3366;
+      margin: 0 10px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #ff6699;
+    }
   </style>
 </head>
 <body>
@@ -104,34 +132,43 @@
     <h1>About Me</h1>
   </div>
 
+  <div class="background-section">
+    <img src="https://example.com/your-profile-picture.jpg" alt="Your Profile Picture" style="border-radius: 50%; max-width: 200px;">
+    <h2>[Your Full Name]</h2>
+    <p>[Job Title / Student]</p>
+
+    <!-- Social Media Icons -->
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/your-handle" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+      <!-- Add more social icons as needed -->
+    </div>
+  </div>
+
   <div class="about-me">
+    <div class="section-title">Introduction</div>
     <p>
-      Hello! My name is <strong style="color: #ff3366;">[Ayomide]</strong> and I'm a <em>[Student]</em>. 
-      I have a passion for <strong style="color: #ff3366;">[Football]</strong> and enjoy <em style="color: #ff3366;">[Playing video games]</em>. 
-      This is a brief introduction to who I am and what I'm all about.
+      Hello, I'm [Ayomide]. 
+      Here's a little more about me and what I'm all about.
     </p>
-    <p>I am from <span style="color: #ff3366;">Nigeria</span></p>
-    
+
     <div class="section-title">Hobbies and Interests</div>
     <ul>
-      <li>Playing football with friends</li>
-      <li>Exploring new video game worlds</li>
-      <li>Reading books on various subjects</li>
-    </ul>
-    
+      <li>[Play Video game]</li>
+      <li>[Playing football with friends]</li>
+      <li>[Reading books on various subjects]</li>
+      </ul>
+
     <div class="section-title">Education</div>
-    <p>I'm currently pursuing a degree in [Your Major] at [Your University].</p>
+    <p>
+      I'm currently studying [Computer Programming] at [Red Deer Polytech]. 
+      I'm dedicated to [My academic goal is to excel in compuer programing at [Red Deer]. I aim to maintain a high GPA, actively participate in research projects, and engage in extracurricular activities that enhance my learning experience. Ultimately, I aspire to graduate with a deep understanding of my field and the skills needed to make a meaningful impact in [Programming."].
+    </p>
   </div>
 
   <div class="footer">
     <a href="index.html">← Back to Main Page</a>
-  </div>
-
-  <!-- Image Container -->
-  <div class="image-container">
-    <img class="image" src="https://th.bing.com/th/id/OIP.7s3WGxpeJiZbbSo7p7CKGAHaFU?w=256&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Football Image">
-    <img class="image" src="https://th.bing.com/th/id/OIP.Rk4AAj1viTeOp699NHyOBgHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Video Game Image">
-    <img class="image" src="https://th.bing.com/th/id/OIP.oqIZ3wnE7LZP8t6c_p_rRQHaFV?w=215&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Nigeria Flag Image">
   </div>
 </body>
 </html>
