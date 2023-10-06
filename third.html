@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Life</title>
     <style>
         /* Reset some default styles */
@@ -13,8 +13,8 @@
 
         /* Body Styles */
         body {
-            font-family: 'Bell mt', sans-serif;
-            background: linear-gradient(135deg, Blue);
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #FC4A1A, #F7B733);
             line-height: 1.6;
             margin: 0;
             padding: 0;
@@ -22,8 +22,8 @@
 
         /* Header Styles */
         header {
-            background-color: rgba(51, 51, 51, 0.8);
-            color: #fff;
+            background-color: #0A2E36;
+            color: #E8E8E8;
             padding: 20px;
             text-align: center;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -37,25 +37,30 @@
         }
 
         nav a {
-            color: #fff;
+            color: #E8E8E8;
             text-decoration: none;
             font-weight: bold;
             margin-left: 20px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #FDCB58;
         }
 
         /* Section Styles */
         section {
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: #FFFFFF;
             padding: 20px;
             margin: 20px 0;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         /* Heading Styles */
         h1, h2 {
-            font-size: 36px;
-            color: #333;
+            font-size: 48px; /* Increased the font size for "About Life" */
+            color: #0A2E36;
             margin-bottom: 10px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
@@ -64,27 +69,27 @@
         p {
             font-size: 18px;
             line-height: 1.6;
-            color: #444;
+            color: #333;
         }
 
         /* Link Styles */
         a {
-            color: #FF6B6B;
+            color: #FC4A1A;
             text-decoration: none;
             font-weight: bold;
             transition: color 0.3s;
         }
 
         a:hover {
-            color: #FF3333;
+            color: #FDCB58;
         }
 
         /* Button Styles */
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #FF6B6B;
-            color: #fff;
+            background-color: #FC4A1A;
+            color: #E8E8E8;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -92,7 +97,7 @@
         }
 
         .button:hover {
-            background-color: #FF3333;
+            background-color: #FDCB58;
         }
 
         /* Image Styles */
