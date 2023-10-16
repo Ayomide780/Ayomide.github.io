@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      width: 360px; 
+      height: 360px; 
+      background-color: transparent;
+      border: 4px solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #FFFFFF; /* White text color */
+      border-radius: 15px;
+      border-color: #333; /* Border color for the big shape */
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-gap: 10px;
+    }
+
+    .shape {
+      width: 100px;
+      height: 100px;
+      background-color: transparent;
+      border: 3px solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #FFFFFF; /* White text color */
+      border-radius: 15px;
+    }
+
+    .shape:nth-child(1) {
+      border-color: #Black;
+    }
+
+    .shape:nth-child(2) {
+      border-color: #3498DB;
+    }
+
+    .shape:nth-child(3) {
+      border-color: #E74C3C;
+    }
+
+    .shape:nth-child(4) {
+      border-color: #27AE60;
+    }
+
+    .shape:nth-child(5) {
+      border-color: #F1C40F;
+    }
+
+    .shape:nth-child(6) {
+      border-color: #9B59B6;
+    }
+    .shape:nth-child(7) {
+      border-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="grid-container">
+      <div class="shape">1</div>
+      <div class="shape">2</div>
+      <div class="shape">3</div>
+      <div class="shape">4</div>
+      <div class="shape">5</div>
+      <div class "shape">6</div>
+    </div>
+  </div>
+</body>
+</html>
 
